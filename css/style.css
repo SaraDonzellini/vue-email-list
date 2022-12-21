@@ -4,14 +4,19 @@ body {
   background-size: contain;
 }
 
+h1 {
+  color: green;
+}
+
+
 ul {
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
 ul li{
   border: 1px solid #e0edc6;
-  width: 100%;
+  width: 40%;
   margin: auto;
   list-style-type: none;
 }
