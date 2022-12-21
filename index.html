@@ -27,13 +27,13 @@
               <h1 class="mt-4 text-decoration-underline">
                 Email List
               </h1>
-              <ul class="mt-4">
+              <ul class="mt-4" v-if="(emails.length === 10)">
                 <li class="p-1" v-for="email, index in emails">
-                  <span v-if="(emails.length === 10)">{{ email }} </span>
-                  <span v-else>Sto caricando...</span>
+                  <span >{{ email }} </span>
                 </li>
-
+                
               </ul>
+              <p v-else>Sto caricando...</p>
             </div>
           </div>
         </div>
