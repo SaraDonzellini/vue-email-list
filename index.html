@@ -27,9 +27,9 @@
               <h1 class="mt-4 text-decoration-underline">
                 Email List
               </h1>
-              <ul>
-                <li class="mt-4" v-for="email, index in emails">
-                  <span v-if="(emails.length == 10)">{{ email }} </span>
+              <ul class="mt-4">
+                <li class="p-1" v-for="email, index in emails">
+                  <span v-if="(emails.length === 10)">{{ email }} </span>
                   <span v-else>Sto caricando...</span>
                 </li>
 

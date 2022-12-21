@@ -3,3 +3,15 @@ body {
   background-image: url("../img/leaves.webp");
   background-size: contain;
 }
+
+ul {
+  width: 50%;
+  margin: auto;
+}
+
+ul li{
+  border: 1px solid #e0edc6;
+  width: 100%;
+  margin: auto;
+  list-style-type: none;
+}
