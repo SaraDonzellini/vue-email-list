@@ -27,8 +27,8 @@
                 Email List
               </h1>
               <p class="mt-4" v-for="email, index in emails">
-                <span v-if="">{{ email }} </span>
-                <span v-else></span>
+                <span v-if="(emails.length == 10)">{{ email }} </span>
+                <span v-else>Sto caricando</span>
               </p>
             </div>
           </div>
